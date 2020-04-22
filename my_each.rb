@@ -5,7 +5,7 @@ def my_each(words)
       yield (words[i])
       i = i + 1
     end
-
+    words
 end
 
 collection = [1, 2, 3, 4]
